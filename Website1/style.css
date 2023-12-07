@@ -1,0 +1,288 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+.menu {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("foto rizky.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 45px 8% 0 8%;
+}
+
+.logo {
+  color: #fff;
+  font-size: 35px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.btn a {
+  color: #fff;
+}
+span {
+  color: aqua;
+}
+
+span1 {
+  color: #ffd700;
+}
+
+span2 {
+  color: #c0c0c0;
+}
+
+span3 {
+  color: #bf8970;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px 25px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: aqua;
+  transition: 0.4s;
+}
+
+.btn {
+  background: #8acdd7;
+  color: #fff;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 10px 25px;
+  border-radius: 30px;
+  transition: transform 0.4s;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 8%;
+  transform: translateY(-50%);
+}
+
+h1 {
+  color: #fff;
+  font-size: 75px;
+  margin: 10px 0px 10px;
+}
+
+h3 {
+  color: aqua;
+  font-size: 20px;
+  margin: 5px;
+}
+
+h4 {
+  color: #fff;
+  letter-spacing: 2px;
+  font-size: 15px;
+}
+
+.about {
+  width: 100%;
+  padding: 100px 0px;
+  background-color: #191919;
+}
+
+.about img {
+  height: auto;
+  width: 430px;
+}
+
+.about-text {
+  width: 550px;
+}
+
+.main {
+  width: 1130px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about-text h2 {
+  color: #fff;
+  letter-spacing: 2px;
+  font-size: 75px;
+  margin-bottom: 25px;
+  text-transform: capitalize;
+}
+
+.about-text h5 {
+  color: #fff;
+  letter-spacing: 2px;
+  font-size: 20px;
+  margin-bottom: 25px;
+  text-transform: capitalize;
+}
+
+.about-text p {
+  color: #fff;
+  letter-spacing: 1px;
+  font-size: 20px;
+  margin-bottom: 45px;
+}
+
+.prestasi {
+  background: #101010;
+  width: 100%;
+  padding: 100px 0;
+}
+
+.title h2 {
+  color: #fff;
+  font-size: 75px;
+  width: 1130px;
+  text-align: center;
+  margin: auto;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+}
+
+.card {
+  height: 365px;
+  width: 335px;
+  padding: 20px 35px;
+  background: #191919;
+  border-radius: 20px;
+  margin: 15px;
+  position: relative;
+  text-align: center;
+}
+
+.card i {
+  font-size: 50px;
+  display: block;
+  text-align: center;
+  margin: 25px 0;
+  color: aqua;
+}
+
+h5 {
+  color: #fff;
+  font-size: 23px;
+  margin: 15px;
+}
+
+.pra p {
+  color: #fcfcfc;
+  font-size: 16px;
+  line-height: 27px;
+  margin-bottom: 25px;
+}
+
+.kontak {
+  width: 100%;
+  background: #191919;
+  height: 290px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.kontak p {
+  color: #fff;
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.kontak .button-dua {
+  background: aqua;
+  color: #fff;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 13px 30px;
+  border-radius: 30px;
+  transition: 0.4s;
+}
+
+.kontak .button-dua:hover {
+  background-color: transparent;
+  border: 2px solid aqua;
+  cursor: pointer;
+}
+
+footer {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background: #101010;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+footer p:nth-child(2) {
+  font-size: 17px;
+  color: #fff;
+  text-align: center;
+  width: 500px;
+  line-height: 26px;
+}
+
+.sosial {
+  display: flex;
+}
+
+.sosial a {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: aqua;
+  border-radius: 50%;
+  margin: 22px 10px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+}
+
+.sosial a:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+.end {
+  color: aqua;
+  position: absolute;
+  bottom: 35px;
+}
