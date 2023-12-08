@@ -115,6 +115,7 @@ body {
 
 .wrapper a {
     color: #fff;
+    text-decoration: none;
 }
 
 .wrapper a:hover {
