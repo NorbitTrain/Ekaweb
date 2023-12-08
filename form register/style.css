@@ -112,3 +112,12 @@ body {
 .register-link p a:hover {
   text-decoration: underline;
 }
+
+.wrapper a {
+    color: #fff;
+}
+
+.wrapper a:hover {
+    color: aqua;
+    transition: 0.4s;
+}
